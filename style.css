@@ -1,0 +1,62 @@
+body {
+    background: #f7f7f7;; /*cor de fundo cinza mais suave */
+    font-family: Verdana;
+    max-width: 900px; /* vai se adequar se o conteudo for menor que 900px a tela vai se adaptar tornando responsivo*/
+    /* width: 900px colocando a largura do site de 900 pixes*/
+    margin: auto; /*a margem fica automatica se adaptando a qualquer tela, cria espaçamento dos dois lados*/
+}
+
+.photo {
+    border: 1px solid #505050;
+    border-radius: 50%;
+}
+
+#title, .subtitle, .post_title {
+    color: #505050; /*Cor preta mais suave #505050 */
+}
+
+#title {
+    font-size: 40px; /* aumenta a fonte do titulo*/
+    text-transform: uppercase;  /* Coloca ele todo em caixa alta*/
+}
+
+a {
+    text-decoration: line-through; /*Mudando a aparecia e cor dos links*/
+    color: #505050
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    margin:0;
+    margin-bottom: 15px;
+}
+
+.post {
+   background:#fff; /*cor de fundo branca*/
+   padding: 15px; /*Espaçamento entre o bloco e o limite da pagina*/
+   border: 3px solid #505050; /*Cor da borda de 3px solida na cor preta */
+   margin-bottom: 15px; /*Margem o espaçamento do lado inferior*/
+   border-radius: 5px;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;  /*no conteudo colocando todo texto em captalize*/
+    text-align: justify; /*deixa o texto distribuido de forma igual se usamor center, left ou right vai se mover para lados diferentes*/
+}
+
+.post_image {
+    margin-bottom: 15px;
+    width: 100%; /*coloca a largura da imagem em 100%*/
+}
+ .contact_list {
+     list-style-type: none;
+     padding-left: 15px; /*zerando o padding ele encosta a lista junto com a margem*/
+ }
+ .contact_list  li a { /* Mudando a cor da ancora links*/
+     color: blue;
+     text-decoration: none; /* torando a decoração do texto*/
+ }
+
